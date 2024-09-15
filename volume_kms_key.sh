@@ -1,5 +1,5 @@
 #Bash script to get KMS key attached to volumes attached to AWS EC2 instance 
-INSTANCE_IDS=("i-0123456789abcdef0" "i-0abcdef1234567890") # Replace with your actual instance IDs
+INSTANCE_IDS=("abc" "i-abc") # Replace with your actual instance IDs
 
 for INSTANCE_ID in "${INSTANCE_IDS[@]}"; do
   echo "Processing instance: $INSTANCE_ID"
