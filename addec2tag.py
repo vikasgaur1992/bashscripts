@@ -1,8 +1,5 @@
 '''
 Script for adding/updating/deleting Ec2 tag
-Script creation date : 3/12/2023
-script location : /home/ec2-user/awsinfra/addec2tag/addec2tag.py
-Version = 1.0
 Steps :
 
 1)copy private ips list inside instancelist.txt file
